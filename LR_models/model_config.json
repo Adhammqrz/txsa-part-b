@@ -1,0 +1,13 @@
+{
+  "best_params": {
+    "clf__C": 0.1,
+    "clf__class_weight": "balanced",
+    "clf__penalty": "l2",
+    "clf__solver": "lbfgs"
+  },
+  "cv_best_score_macro_f1": 0.6316256293182525,
+  "test_accuracy": 0.6936850825208691,
+  "test_f1_macro": 0.5744440667733482,
+  "test_f1_weighted": 0.7315637144917775,
+  "exported_at_utc": "2026-07-28T12:23:21.830398+00:00"
+}
