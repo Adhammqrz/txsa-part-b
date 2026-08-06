@@ -1,13 +1,27 @@
 {
   "best_params": {
-    "clf__C": 0.1,
+    "clf__C": 1,
     "clf__class_weight": "balanced",
     "clf__penalty": "l2",
-    "clf__solver": "lbfgs"
+    "clf__solver": "liblinear",
+    "vect__max_features": 5000,
+    "vect__ngram_range": [
+      1,
+      2
+    ],
+    "vect__sublinear_tf": true
   },
-  "cv_best_score_macro_f1": 0.6316256293182525,
-  "test_accuracy": 0.6936850825208691,
-  "test_f1_macro": 0.5744440667733482,
-  "test_f1_weighted": 0.7315637144917775,
-  "exported_at_utc": "2026-07-28T12:23:21.830398+00:00"
+  "cv_best_score_f1_macro": 0.6407851259219413,
+  "use_tuned_weights": true,
+  "class_weight_multipliers": [
+    0.9473017642127722,
+    1.062842459228776,
+    0.971955018289895
+  ],
+  "val_f1_macro_default": 0.586654068679202,
+  "val_f1_macro_tuned": 0.5874128361207898,
+  "test_accuracy": 0.6958516536035175,
+  "test_f1_macro": 0.5789180487175473,
+  "test_f1_weighted": 0.7323678516632849,
+  "exported_at_utc": "2026-08-06T04:29:09.910994+00:00"
 }
